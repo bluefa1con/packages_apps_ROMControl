@@ -24,25 +24,11 @@
         android:summary="@string/header_summary_lockscreens" />
 
     <header
-        android:id="@+id/power_menu"
-        android:fragment="com.aokp.romcontrol.fragments.PowerMenu"
-        android:title="@string/power_menu"
-        android:icon="@drawable/ic_rom_control_power_menu"
-        android:summary="@string/header_summary_power_menu" />
-
-     <header
         android:id="@+id/nav_bar"
         android:fragment="com.aokp.romcontrol.fragments.Navbar"
         android:title="@string/nav_bar"
         android:icon="@drawable/ic_rom_control_navigation_bar"
         android:summary="@string/header_summary_navigation_bar" />
-
-     <header
-        android:id="@+id/nav_ring"
-        android:fragment="com.aokp.romcontrol.fragments.NavRingTargets"
-        android:icon="@drawable/ic_rom_control_navigation_ring"
-        android:title="@string/interface_navring_settings_title"
-        android:summary="@string/interface_navring_settings_summary" />
 
     <header
         android:id="@+id/statusbar"
@@ -69,13 +55,6 @@
         android:icon="@drawable/ic_rom_control_signal"
         android:summary="@string/header_summary_signal" />
 
-        <header
-        android:id="@+id/statusbar_toggles"
-        android:title="@string/toggles_layout"
-        android:fragment="com.aokp.romcontrol.fragments.StatusBarToggles"
-        android:icon="@drawable/ic_rom_control_quick_settings"
-        android:summary="@string/header_summary_toggles" />
-
     <header
         android:id="@+id/system"
         android:title="@string/header_system" />
@@ -86,13 +65,6 @@
         android:title="@string/led_options"
         android:icon="@drawable/ic_rom_control_led"
         android:summary="@string/header_summary_led" />
-
-    <header
-        android:id="@+id/spen"
-        android:fragment="com.aokp.romcontrol.fragments.SPenGestures"
-        android:title="@string/spen_options"
-        android:icon="@drawable/ic_rom_control_spen"
-        android:summary="@string/header_summary_spen" />
 
     <header
         android:id="@+id/sound"

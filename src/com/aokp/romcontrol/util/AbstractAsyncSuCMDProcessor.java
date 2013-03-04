@@ -3,6 +3,10 @@ package com.aokp.romcontrol.util;
 
 import android.os.AsyncTask;
 
+import com.aokp.romcontrol.objects.EasyPair;
+import com.aokp.romcontrol.util.CMDProcessor;
+import com.aokp.romcontrol.util.Helpers;
+
 /**
  * An abstract implentation of AsyncTask
  *
@@ -64,7 +68,7 @@ public abstract class AbstractAsyncSuCMDProcessor extends AsyncTask<String, Void
             return FAILURE;
 
         mTerm = new CMDProcessor();
-        String stdout = null;
+        EasyPair<String, String> pairedOutput = new EasyPair<String, String>(FAILURE, FAILURE);
 
         // conditionally enforce mounting
         if (mMountSystem) {
@@ -74,20 +78,19 @@ public abstract class AbstractAsyncSuCMDProcessor extends AsyncTask<String, Void
             // process all commands ***DO NOT SEND null OR ""; you have been warned***
             for (int i = 0; params.length > i; i++) {
                 // always watch for null and empty strings, lazy devs :/
-                if (params[i] != null && !params[i].trim().equals("")) {
-                    stdout = mTerm.su.runWaitFor(params[i]).getStdout();
-                } else {
+                if (params[i] != null && !params[i].trim().equals(""))
+                    pairedOutput = mTerm.su.runWaitFor(params[i]).getOutput();
+                else
                     // bail because of careless devs
                     return FAILURE;
-                }
             }
         // always unmount
         } finally {
             if (mMountSystem)
                 Helpers.getMount("ro");
         }
-        // return the stdout from the command
-        return stdout;
+        // return the last commmand result output EasyPair<stdout, stderr>
+        return pairedOutput.getFirst();
     }
 
     /**

@@ -51,10 +51,6 @@
             android:title="@string/brightness_slider_title"
             android:summary="@string/brightness_slider_summary" />
 
-        <Preference
-            android:key="transparency_dialog"
-            android:title="@string/transparency_dialog_title" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -81,26 +77,7 @@
             android:title="@string/kill_app_longpress_back"
             android:summary="@string/kill_app_longpress_back_summary" /> -->
 
-        <ListPreference
-            android:key="user_mode_ui"
-            android:title="@string/user_mode_ui"
-            android:summary="@string/user_mode_ui_summary"
-            android:entries="@array/user_mode_ui_entries"
-            android:entryValues="@array/user_mode_ui_values" />
-
-       <CheckBoxPreference
-            android:key="hide_extras"
-            android:title= "@string/hide_extras"
-            android:summary= "@string/hide_extras_summary"
-            android:defaultValue="false" />
-
-       <CheckBoxPreference
-            android:key="force_dualpanel"
-            android:title="@string/multipane_ui"
-            android:summary="@string/multipane_ui_summary"
-            android:defaultValue="false" />
-
-     </PreferenceCategory>
+    </PreferenceCategory>
 
      <PreferenceCategory
             android:key="misc"
@@ -116,12 +93,6 @@
             android:key="rotate_180"
             android:title="@string/rotate_180_title"
             android:summary="@string/rotate_180_summary" />
-
-        <CheckBoxPreference
-            android:key="ime_switcher"
-            android:title="@string/ime_switcher_title"
-            android:summary="@string/ime_switcher_summary"
-            android:defaultValue="true" />
 
         <CheckBoxPreference
             android:key="wakeup_when_plugged_unplugged"

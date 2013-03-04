@@ -7,7 +7,6 @@
     <string name="user_interface">Interface</string>
     <string name="cancel">Cancel</string>
     <string name="ok">OK</string>
-    <string name="save">Save</string>
     <string name="menu_main_activity_change_locale">Blank!</string>
     <string name="header_statusbar">Statusbar</string>
     <string name="header_navbar">Navigation Bar</string>
@@ -19,7 +18,6 @@
     <string name="nav_bar">Navigation Bar</string>
     <string name="power_menu">Power Menu</string>
     <string name="led_options">LED</string>
-    <string name="spen_options">S Pen Gestures</string>
     <string name="header_system">System</string>
     <string name="sound">Sound</string>
     <string name="lockscreen_options">Lockscreen</string>
@@ -33,12 +31,11 @@
     <string name="title_statusbar_toggles">Statusbar Toggles</string>
     <string name="title_statusbar_battery">Statusbar Battery</string>
     <string name="title_navbar">Navigation Bar</string>
-    <string name="title_navring">Navigation Ring</string>
     <string name="title_power_menu">Power Menu</string>
     <string name="title_led">LED Control</string>
-    <string name="title_spen">S Pen Gestures</string>
     <string name="title_lockscreens">Lockscreen Options</string>
     <string name="title_lockscreens_targets">Lockscreen Targets</string>
+    <string name="title_navring">Navigation Ring</string>
     <string name="title_sound">Sound Settings</string>
     <string name="title_weather">Weather Settings</string>
     <string name="title_performance">Performance Settings</string>
@@ -53,7 +50,6 @@
     <string name="header_summary_navigation_bar">@null</string>
     <string name="header_summary_power_menu">@null</string>
     <string name="header_summary_led">@null</string>
-    <string name="header_summary_spen">@null</string>
     <string name="header_summary_sound">@null</string>
     <string name="header_summary_performance">@null</string>
     <string name="header_summary_lockscreens">@null</string>
@@ -69,8 +65,6 @@
     <string name="advanced_settings">Advanced settings</string>
     <string name="misc_short">Misc</string>
     <string name="custom_app_icon_successfully">"'s icon set successfully!"</string>
-    <string name="text_on">On</string>
-    <string name="text_off">Off</string>
 
     <!-- Power Menu -->
     <string name="title_show_power_saver">Show power saver</string>
@@ -78,21 +72,6 @@
     <string name="title_show_torch_toggle">Show torch toggle</string>
     <string name="title_show_airplane_toggle">Show airplane toggle</string>
     <string name="title_show_navbar_hide">Show navigation bar toggle</string>
-    <string name="title_show_reboot_keyguard">Show reboot on lockscreen</string>
-
-    <!-- S Pen -->
-    <string name="spen_left_title">Action on swipe left</string>
-    <string name="spen_right_title">Action on swipe right</string>
-    <string name="spen_up_title">Action on swipe up</string>
-    <string name="spen_down_title">Action on swipe down</string>
-    <string name="spen_double_title">Action on double tap</string>
-    <string name="spen_long_title">Action on long press</string>
-    <string name="spen_enable">Enable S Pen Gestures</string>
-    <string name="spen_enable_summary">Set custom actions for S Pen gestures</string>
-    <string name="spen_extras_cat">S Pen Extras</string>
-    <string name="spen_gestures_cat">S Pen Gestures</string>
-    <string name="enable_stylus_pointer_title">Enable S Pen pointer</string>
-    <string name="enable_stylus_pointer_summary">Enable the mouse icon when using the S Pen</string>
 
     <!-- Power Saving -->
     <string name="title_pref_powersaving_pref_mode">Enable power saver</string>
@@ -138,14 +117,12 @@
     <string name="donate_just_reboot">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=WEZKU46DAFMSW</string>
     <string name="donate_stevespear">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=6SY3WH7AZNR7Y</string>
     <string name="donate_birdman">https://support.woundedwarriorproject.org/Default.aspx?tsid=66&amp;campaignSource=WEBSITE</string>
-    <string name="donate_aokp">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DBBCGTVJ984YG</string>
 
     <!-- General UI -->
     <string name="bootani_cat">Boot Animation</string>
     <string name="navbar_cat">NavBar</string>
     <string name="notification_cat">Notification</string>
     <string name="tabletUI_cat">Tablet UI</string>
-    <string name="enable_volume_options">Enable Volume Panel</string>
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display number of pending notifications on the status bar</string>
     <string name="vibrate_notif_expand_title">Vibrate on expand</string>
@@ -196,19 +173,7 @@
     <string name="notification_show_wifi_ssid_summary">Display the name of the currently connected Wifi network</string>
     <string name="brightness_slider_title">Statusbar brightness slider</string>
     <string name="brightness_slider_summary">Allows you to slide your finger along the top of the statusbar to change the brightness. Does nothing when autobrightness is enabled.</string>
-    <string name="user_mode_ui">UI Mode</string>
-    <string name="user_mode_ui_summary">What style to display NavBar and Statusbar\nChanges will force SystemUI Restart</string>
-    <string name="phone_mode_ui">Phone - NavBar to side in landscape</string>
-    <string name="tablet_mode_ui">Tablet - Combined NavBar and SystemBar</string>
-    <string name="phablet_mode_ui">Phablet - NavBar stays at bottom in landscape</string>
-    <string name="transparency_dialog_title">Transparency settings</string>
-    <string name="transparency_dialog_linked_transparency">Link statusbar &amp; navbar alpha</string>
-    <string name="transparency_dialog_transparency_sb_and_nv">Statusbar and navigation bar</string>
-    <string name="transparency_dialog_statusbar">Statusbar</string>
-    <string name="transparency_dialog_navbar">Navigation bar</string>
-    <string name="transparency_dialog_match_keyguard_alpha">Match lockscreen alpha</string>
-    <string name="transparency_dialog_transparency">Homescreen alpha</string>
-    <string name="transparency_dialog_transparency_keyguard">Lockscreen alpha</string>
+
 
     <!-- LCD Density -->
     <string name="lcd_density_title">LCD Density</string>
@@ -244,10 +209,9 @@
     <string name="toggle_style_title">Toggle style</string>
     <string name="toggle_style_summary">Whether to show icons or text on your toggles.</string>
     <string name="toggles_layout_title">Toggle Layout</string>
-    <string name="toggles_per_row_title">Toggles per row</string>
-    <string name="toggles_per_row_summary">Choose how many toggles to show per row</string>
-    <string name="toggles_style_title">Toggles style</string>
-    <string name="toggles_style_summary">Notification (traditional) or tiles</string>
+    <string name="enabled_toggles_title">Enabled toggles</string>
+    <string name="enabled_toggles_summary">Choose toggles to display</string>
+    <string name="toggles_display_dialog">Choose which toggles to use</string>
     <string name="toggles_display_close">Close</string>
     <string name="toggles_order_title">Toggle order</string>
     <string name="toggles_order_summary">Choose the order which your toggles are displayed</string>
@@ -264,18 +228,10 @@
     <string name="toggle_btn_disabled_color_title">Disabled indicator color</string>
     <string name="toggle_btn_background_title">Toggle background alpha</string>
     <string name="toggle_text_color_title">Toggle text color</string>
-    <string name="toggle_favcontact_title">Favorite contact</string>
-    <string name="toggle_favcontact_summary">Choose your favorite contact</string>
     <string name="toggle_enable_fasttoggle_title">Enable fast toggle</string>
     <string name="toggle_enable_fasttoggle_summary">Overrides default behavior</string>
     <string name="toggle_choose_fasttoggle_side_title">Choose fast toggle side</string>
     <string name="toggle_choose_fasttoggle_side_summary">Choose which side the fast toggle area shall be</string>
-    <string name="toggle_dialog_arrange_title">Toggle setup</string>
-    <string name="toggle_dialog_add_toggles">Select toggles to add</string>
-    <string name="toggle_style_tile">Tiles</string>
-    <string name="toggle_style_traditional">Traditional</string>
-    <string name="toggle_swap_handle_side">Drag handle on right</string>
-    <string name="add_toggles">Change toggles</string>
 
     <!-- Statusbar | Clock -->
     <string name="clock_title_enable">Clock style</string>
@@ -312,17 +268,6 @@
     <string name="toggle_vibrate">Vibrate</string>
     <string name="toggle_wifi_tether">Wifi Tether</string>
     <string name="toggle_wifi">Wi-Fi</string>
-    <string name="toggle_user">User</string>
-    <string name="toggle_favorite_contact">Favorite Contact</string>
-    <string name="toggle_settings">Settings</string>
-    <string name="toggle_signal">Signal</string>
-    <string name="toggle_clock">Clock</string>
-    <string name="toggle_ime">IME</string>
-    <string name="toggle_battery">Battery</string>
-    <string name="toggle_brightness">Brightness</string>
-    <string name="toggle_sound_state">Ring/Vib/Silent</string>
-    <string name="toggle_navbar_hide">Navbar Auto Hide</string>
-    <string name="toggle_quickrecord">Quick Record</string>
 
     <!-- Statusbar | Battery -->
     <string name="battery_icon">Battery icon style</string>
@@ -358,7 +303,6 @@
 
     <!-- Navigation Bar -->
     <string name="navigation_bar">Navigation bar</string>
-    <string name="navbar_hide">NavBar Hide Options</string>
     <string name="navbar_button_cat">Navigation bar buttons</string>
     <string name="title_pref_menu_display">Menu location</string>
     <string name="summary_pref_menu_display">Remember to remove your menu buttons if you\'re using the big menu button!</string>
@@ -387,22 +331,6 @@
     <string name="navbar_action_notifications">Notifications</string>
     <string name="navbar_action_none">Empty</string>
     <string name="navbar_widgets">Navigation Bar Widgets</string>
-    <string name="navbar_enable_bar">Enable bar</string>
-    <string name="navigation_bar_height_title">Navigation bar height</string>
-    <string name="navigation_bar_height_summary">Navigation Bar height while in portrait.</string>
-    <string name="navigation_bar_height_landscape_title">Navigation bar height landscape</string>
-    <string name="navigation_bar_height_landscape_summary">Navigation Bar height while in landscape.</string>
-    <string name="navigation_bar_width_title">Navigation bar width</string>
-    <string name="navigation_bar_width_summary">Navigation Bar height if the bar is along a side.</string>
-    <string name="navbar_enable_dialog_title">Reboot required!</string>
-    <string name="navbar_enable_dialog_msg">You <b>should</b> reboot right now to make sure everything works properly!</string>
-    <string name="navbar_enable_dialog_negative">I\'ll reboot later</string>
-    <string name="navbar_enable_dialog_Positive">Reboot now!</string>
-    <string name="navbar_height_dialog_title">Reboot required!</string>
-    <string name="navbar_height_dialog_summary">Please reboot for height change to be added properly!</string>
-    <string name="navbar_height_dialog_button_later">I\'ll reboot later</string>
-    <string name="navbar_height_dialog_button_reboot">Reboot now!</string>
-    <string name="navigation_bar_color_title">Navigation bar color</string>
     <string name="navigation_bar_tint_title">Navigation bar buttons color</string>
     <string name="navigation_bar_colorall_title">Colorize all buttons</string>
     <string name="navigation_bar_colorall_summary">If checked, custom icons will be colorized</string>
@@ -423,41 +351,41 @@
     <string name="navbar_widgets_delete">Delete widget</string>
     <string name="navigation_bar_menu_arrow_keys_title">Menu arrow keys</string>
     <string name="navigation_bar_menu_arrow_keys_summary">Show arrow keys in the navigation bar while typing</string>
-    <string name="navigation_bar_alpha_title">Statusbar and navigation bar opacity</string>
-    <string name="navbar_hide_enable_title">Hidden Navbar Enable</string>
-    <string name="drag_handle_opacity_title">Drag Handle Opacity</string>
-    <string name="drag_handle_width_title">Drag Handle Width</string>
-    <string name="title_navbar_timeout">Hidden Navbar Timeout</string>
-    <string name="summary_navbar_timeout">Timeout time for Hidden Navbar Window</string>
-    <string name="hide_navbar_timeout_never">Never</string>
-    <string name="hide_navbar_timeout_1500">1.5 Sec</string>
-    <string name="hide_navbar_timeout_3000">3 Sec</string>
-    <string name="hide_navbar_timeout_5000">5 Sec</string>
-    <string name="hide_navbar_timeout_10000">10 Sec</string>
-    <string name="hide_navbar_timeout_15000">15 Sec</string>
-    <string name="hide_navbar_timeout_30000">30 Sec</string>
 
     <!-- Nav Ring Targets -->
-    <string name="navbar_ring_cat">Navigation Ring Targets</string>
+    <string name="navbar_ring_cat">Navigation Bar Ring Targets</string>
+    <string name="interface_softkey_settings">Softkey Settings</string>
+    <string name="interface_softkeys_pref_default_1_title">Target 1 short press activity</string>
+    <string name="interface_softkeys_pref_long_1_title">Target 1 long press activity</string>
+    <string name="interface_softkeys_pref_default_2_title">Target 2 short press activity</string>
+    <string name="interface_softkeys_pref_long_2_title">Target 2 long press activity</string>
+    <string name="interface_softkeys_pref_default_3_title">Target 3 short press activity</string>
+    <string name="interface_softkeys_pref_long_3_title">Target 3 long press activity</string>
+    <string name="interface_softkeys_pref_default_4_title">Target 4 short press activity</string>
+    <string name="interface_softkeys_pref_long_4_title">Target 4 long press activity</string>
+    <string name="interface_softkeys_pref_default_5_title">Target 5 short press activity</string>
+    <string name="interface_softkeys_pref_long_5_title">Target 5 long press activity</string>
+    <string name="interface_softkeys_pref_default_summary">Tap the settings icon to select a custom long press activity</string>
+    <string name="interface_softkeys_activity_dialog_title">Select Activity</string>
+    <string name="interface_softkeys_reboot_title">Reboot Menu</string>
+    <string name="interface_softkeys_screenshot_title">Screenshot</string>
+    <string name="interface_softkeys_screenoff_title">Screen Off</string>
+    <string name="interface_softkeys_ime_switcher_title">Open IME Switcher</string>
+    <string name="interface_softkeys_ring_vib_title">Toggle Ring/Vib</string>
+    <string name="interface_softkeys_ring_silent_title">Toggle Ring/Silent</string>
+    <string name="interface_softkeys_ring_vib_silent_title">Toggle Ring/Vib/Silent</string>
+    <string name="interface_softkeys_kill_process_title">Kill App</string>
+    <string name="interface_softkey_package_removed">The previously selected package was not found</string>
+    <string name="interface_navring_settings_title">Navigation bar ring</string>
+    <string name="interface_navring_settings_summary">Edit your custom nav ring apps</string>
+    <string name="title_navring_amount">Number of nav ring targets</string>
+    <string name="summary_navring_amount">How many ring targets you want? *Changing this will reset your current targets and restart your System UI*</string>
+    <string name="interface_navring_custom_pref_summary">Release on target to launch </string>
+    <string name="interface_navring_pref_default_summary">Tap to select a custom ring target activity</string>
+    <string name="interface_navring_assist_title">Google Now</string>
+    <string name="interface_navring">Ring Targets</string>
     <string name="navbar_ring">Custom Ring Targets</string>
-    <string name="navring_enable_long">Enable Longpress for navigation ring</string>
-    <string name="navring_target_save">Navigation rings saved</string>
-    <string name="navring_target_reset_message">Do you want to reset the navigation ring?</string>
-    <string name="navring_target_reset">Navigation ring targets reset.</string>
-    <string name="choose_action_title">Choose action</string>
-    <string name="choose_action_short_title">Choose short action</string>
-    <string name="choose_action_long_title">Choose long action</string>
-    <string name="action_long_save"> set as long action</string>
-    <string name="title_navring_amount">Number of navigation ring targets</string>
-    <string name="summary_navring_amount">Choose number of targets in the navigation ring</string>
-    <string name="interface_navring_settings_title">Navigation Ring</string>
-    <string name="interface_navring_settings_summary">@null</string>
-    <string name="navring_target_info">Drag your finger to targets to assign actions</string>
-    <string name="navring_short">Short action</string>
-    <string name="navring_long">Long action</string>
-    <string name="navring_icon">Custom icon</string>
-    <string name="navring_target_amount_text">Current number of targets</string>
-    <string name="navring_target_longpress_text">Longpress status</string>
+    <string name="navring_enable_long">Enable Longpress for navring</string>
 
     <!-- LED -->
     <string name="led_on">LED On</string>
